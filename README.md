@@ -61,7 +61,6 @@ Options:
 - options are same as Cifar10
 
 **Cifar100**
-(19.04.16 added)
 ```sh
 python train.py --class_num 100 --image_shape 32 32 3 --blocks 3 --layers 12 12 12 growth_rate 12 --dropout_rate 0.0 --compression_factor 1.0 --init_subsample False --learning_rate 0.1 --label_smoothing 0.1 --momentum 0.9 --weight_decay 0.0001 --train_set_size 50000 --val_set_size 10000 --batch_size 100 --epochs 60 --checkpoint_dir ./checkpoint --checkpoint_name densenet_cifar100 --train_record_dir ./dataset/cifar100/train.tfrecord --val_record_dir ./dataset/cifar100/test.tfrecord
 ```
